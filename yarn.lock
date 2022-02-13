@@ -1097,7 +1097,7 @@ boolbase@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
 
-bootstrap@^4.1.3:
+bootstrap@4.1.3:
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.1.3.tgz#0eb371af2c8448e8c210411d0cb824a6409a12be"
 
@@ -2907,12 +2907,10 @@ flatten@^1.0.2:
   resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.2.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"
 
 follow-redirects@^1.0.0:
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.5.tgz#3c143ca599a2e22e62876687d68b23d55bad788b"
-  dependencies:
-    debug "^3.1.0"
+  version "1.14.8"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.8.tgz#016996fb9a11a100566398b1c6839337d7bfa8fc"
 
-font-awesome@^4.7.0:
+font-awesome@4.7.0:
   version "4.7.0"
   resolved "https://registry.yarnpkg.com/font-awesome/-/font-awesome-4.7.0.tgz#8fa8cf0411a1a31afd07b06d2902bb9fc815a133"
 
@@ -2952,7 +2950,7 @@ fresh@0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
 
-friendly-url@^1.0.3:
+friendly-url@1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/friendly-url/-/friendly-url-1.0.3.tgz#6b893a0fe3cf642515cbfe55bef4f0f31cb1c73e"
 
@@ -3333,7 +3331,7 @@ html-minifier@^3.2.3:
     relateurl "0.2.x"
     uglify-js "3.4.x"
 
-html-react-parser@^0.4.6:
+html-react-parser@0.4.6:
   version "0.4.6"
   resolved "https://registry.yarnpkg.com/html-react-parser/-/html-react-parser-0.4.6.tgz#b59de40d4007169051ed0e97b17a50463acda2e8"
   dependencies:
@@ -3476,7 +3474,7 @@ import-local@^0.1.1:
     pkg-dir "^2.0.0"
     resolve-cwd "^2.0.0"
 
-imports-loader@^0.8.0:
+imports-loader@0.8.0:
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/imports-loader/-/imports-loader-0.8.0.tgz#030ea51b8ca05977c40a3abfd9b4088fe0be9a69"
   dependencies:
@@ -4157,7 +4155,7 @@ jest@20.0.4:
   dependencies:
     jest-cli "^20.0.4"
 
-jquery@^3.3.1:
+jquery@3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
 
@@ -5276,7 +5274,7 @@ pluralize@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
 
-popper.js@^1.14.4:
+popper.js@1.14.4:
   version "1.14.4"
   resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.14.4.tgz#8eec1d8ff02a5a3a152dd43414a15c7b79fd69b6"
 
@@ -5801,11 +5799,7 @@ react-dom-core@0.0.3:
     fbjs "*"
     object-assign "*"
 
-react-dom@^0.14.3:
-  version "0.14.9"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-0.14.9.tgz#05064a3dcf0fb1880a3b2bfc9d58c55d8d9f6293"
-
-react-dom@^16.4.2:
+react-dom@16.4.2:
   version "16.4.2"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.4.2.tgz#4afed569689f2c561d2b8da0b819669c38a0bda4"
   dependencies:
@@ -5814,11 +5808,15 @@ react-dom@^16.4.2:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
+react-dom@^0.14.3:
+  version "0.14.9"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-0.14.9.tgz#05064a3dcf0fb1880a3b2bfc9d58c55d8d9f6293"
+
 react-error-overlay@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-4.0.0.tgz#d198408a85b4070937a98667f500c832f86bd5d4"
 
-react-facebook@^5.0.3:
+react-facebook@5.0.3:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/react-facebook/-/react-facebook-5.0.3.tgz#0d47596a4418cda205e8118ea194786c1272258f"
   dependencies:
@@ -5828,7 +5826,7 @@ react-facebook@^5.0.3:
     prop-types "^15.6.1"
     react-spinner-children "^1.0.8"
 
-react-images@^0.5.19:
+react-images@0.5.19:
   version "0.5.19"
   resolved "https://registry.yarnpkg.com/react-images/-/react-images-0.5.19.tgz#9339570029e065f9f28a19f03fdb5d9d5aa109d3"
   dependencies:
@@ -5837,14 +5835,14 @@ react-images@^0.5.19:
     react-scrolllock "^2.0.1"
     react-transition-group "2"
 
-react-instagram-embed@^1.4.0:
+react-instagram-embed@1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/react-instagram-embed/-/react-instagram-embed-1.4.0.tgz#809579c5bf66f72a9f8e485aa23b5f07faf1a687"
   dependencies:
     jsonp-p "^2.0.0"
     query-string "^5.1.0"
 
-react-js-pagination@^3.0.2:
+react-js-pagination@3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/react-js-pagination/-/react-js-pagination-3.0.2.tgz#003fead038c1be3eaeaf2895905b63daadb1824f"
   dependencies:
@@ -5857,7 +5855,7 @@ react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
 
-react-photo-gallery@^6.2.0:
+react-photo-gallery@6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/react-photo-gallery/-/react-photo-gallery-6.2.0.tgz#2a1a1181172c0ac5a1fce83dac18d781f4ec23a1"
   dependencies:
@@ -5868,7 +5866,7 @@ react-prop-toggle@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/react-prop-toggle/-/react-prop-toggle-1.0.2.tgz#8b0b7e74653606b1427cfcf6c4eaa9198330568e"
 
-react-raw-html@^0.4.0:
+react-raw-html@0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/react-raw-html/-/react-raw-html-0.4.0.tgz#22e6f531ae3124a5c4085b180a5f4e42aa194b31"
   dependencies:
@@ -5876,7 +5874,7 @@ react-raw-html@^0.4.0:
     react "^0.14.3"
     react-dom "^0.14.3"
 
-react-router-dom@^4.3.1:
+react-router-dom@4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-4.3.1.tgz#4c2619fc24c4fa87c9fd18f4fb4a43fe63fbd5c6"
   dependencies:
@@ -5944,7 +5942,7 @@ react-scripts@1.1.4:
   optionalDependencies:
     fsevents "^1.1.3"
 
-react-scroll-up@^1.3.3:
+react-scroll-up@1.3.3:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/react-scroll-up/-/react-scroll-up-1.3.3.tgz#c02dcf57feb9b33e1491e864ccad220e7f7e50d3"
   dependencies:
@@ -5976,7 +5974,7 @@ react-transition-group@2:
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
 
-react-twitter-widgets@^1.7.1:
+react-twitter-widgets@1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/react-twitter-widgets/-/react-twitter-widgets-1.7.1.tgz#60061f37a8c4f361c27f3d1d7ceba98d3cd80a40"
   dependencies:
@@ -5995,7 +5993,7 @@ react@15:
     object-assign "^4.1.0"
     prop-types "^15.5.10"
 
-"react@15.x.x - 16.x.x", react@^16.4.2:
+"react@15.x.x - 16.x.x", react@16.4.2:
   version "16.4.2"
   resolved "https://registry.yarnpkg.com/react/-/react-16.4.2.tgz#2cd90154e3a9d9dd8da2991149fdca3c260e129f"
   dependencies:
